@@ -1,0 +1,34 @@
+{
+  "OCR Upload" : {
+    "transaction" : "OCR Upload",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 625.2499999999999,
+    "medianResTime" : 627.5,
+    "minResTime" : 135.0,
+    "maxResTime" : 1065.0,
+    "pct1ResTime" : 1028.8000000000002,
+    "pct2ResTime" : 1058.0,
+    "pct3ResTime" : 1064.99,
+    "throughput" : 93.54536950420953,
+    "receivedKBytesPerSec" : 85.50631431244153,
+    "sentKBytesPerSec" : 7093.032879735734
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 625.2499999999999,
+    "medianResTime" : 627.5,
+    "minResTime" : 135.0,
+    "maxResTime" : 1065.0,
+    "pct1ResTime" : 1028.8000000000002,
+    "pct2ResTime" : 1058.0,
+    "pct3ResTime" : 1064.99,
+    "throughput" : 93.54536950420953,
+    "receivedKBytesPerSec" : 85.50631431244153,
+    "sentKBytesPerSec" : 7093.032879735734
+  }
+}
