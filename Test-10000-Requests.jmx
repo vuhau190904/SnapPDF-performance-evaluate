@@ -57,7 +57,7 @@
       </ThreadGroup>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="OCR Upload">
-          <stringProp name="HTTPSampler.domain">somnv.click</stringProp>
+          <stringProp name="HTTPSampler.domain">api.somnv.click</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/api/ocr/upload</stringProp>

@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.685, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.685, 500, 1500, "OCR Upload"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.27, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.27, 500, 1500, "OCR Upload"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 100, 0, 0.0, 625.2499999999999, 135, 1065, 627.5, 1028.8000000000002, 1058.0, 1064.99, 93.54536950420953, 85.50631431244153, 7093.032879735734], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["OCR Upload", 100, 0, 0.0, 625.2499999999999, 135, 1065, 627.5, 1028.8000000000002, 1058.0, 1064.99, 93.54536950420953, 85.50631431244153, 7093.032879735734], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 100, 0, 0.0, 1472.5900000000001, 1080, 1850, 1461.5, 1761.6, 1817.5, 1850.0, 39.603960396039604, 26.995668316831683, 3003.1396967821784], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["OCR Upload", 100, 0, 0.0, 1472.5900000000001, 1080, 1850, 1461.5, 1761.6, 1817.5, 1850.0, 39.603960396039604, 26.995668316831683, 3003.1396967821784], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
